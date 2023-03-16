@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro";
+  width: 923px;
+  height: 600px;
+}
+
+.frame-4 {
+  width: 601px;
+  height: 228px;
+  top: 150px;
+  left: 350px;
+  border-radius: 10px;
+  padding: 35px 31px 35px 31px;
+  gap: 15px;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgba (29, 161, 242, 0.2);
+  box-shadow: 8px 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
+}
+
+.frame-3 {
+  width: 539px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 405px;
+}
+
+.frame-2 {
+  width: 167px;
+  height: 50px;
+  gap: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+}
+
+.frame-1 .name {
+  width: 75px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: black;
+}
+
+.frame-1 .u-name {
+  width: 95px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.twitter {
+  position: absolute;
+  left: 509px;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.caption {
+  font: "Source Sans Pro";
+  width: 539px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  left: 31px;
+  margin-top: 12px;
+}
+.caption .hash {
+  background-color: red;
+}
+
+.frame-6 {
+  height: 26px;
+  width: 232px;
+  left: 31px;
+  margin-top: 20px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+
+.frame-5 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 59px;
+  height: 26px;
+}
+
+.like {
+  width: 25px;
+  height: 26px;
+  margin-left: 2px;
+  font-weight: 400;
+  size: 12px;
+}
+
+.date {
+  font-family: "Source Sans Pro";
+  height: 26px;
+  width: 265px;
+  margin-left: 2px;
+  top: 0px;
+  border-radius: nullpx;
+}
